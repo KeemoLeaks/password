@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+ 0% {
+   opacity: 0%;
+   margin-bottom: 100vh;
+  }
+ 100% {
+   opacity: 100%;
+   margin-bottom: 0px;
+  }
+}
+
+#enter {
+ padding: 10px;
+ border: none;
+ background-color: #1a1a1a;
+ border-radius: 8px;
+}
+#thisisanunnecessarilylongid {
+ padding: 10px;
+ border: none;
+ background-color: #1a1a1a;
+ border-radius: 8px;
+}
