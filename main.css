@@ -1,3 +1,5 @@
+@import url("fonts/Elianto.tff")
+
 @keyframes fadeIn {
  0% {
    opacity: 0%;
@@ -8,8 +10,29 @@
    margin-bottom: 0px;
   }
 }
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 00px #00000;
+  }
+  30% {
+  	text-shadow: 0 0 40px #fff;
+  }
+  60% {
+  	text-shadow: 0 0 40px #fff;
+  }
+  100% {
+  	text-shadow: 0 0 00px #00000;
+  }
+}
 body {
  background-color: black;
+}
+#text {
+ animation: glow 4s ease-in-out;
+ color: white;
+ font-family: Elianto;
+ font-size: 100px;
+ text-align: center;
 }
 #enter {
  padding: 10px;
@@ -19,7 +42,7 @@ body {
  color: white;
  display: inline;
  margin-top: 48vh;
- margin-left: 40vw;
+ margin-left: 43vw;
 }
 #thisisanunnecessarilylongid {
  padding: 10px;
