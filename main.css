@@ -29,7 +29,7 @@
 body {
  background-color: black;
 }
-#text {
+#glow {
  animation: glow 4s ease-in-out;
  color: white;
  font-family: Elianto;
