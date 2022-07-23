@@ -1,9 +1,9 @@
 <head>
-<title>Test</title>
+<title>Tranquility</title>
 </head>
 
   <body>
-<input id="enter"></input>
+  <input id="enter"></input>
   <button id="thisisanunnecessarilylongid" onClick="myFunction()">Enter</button>
   <script>
     function myFunction() {
@@ -13,10 +13,9 @@
         document.getElementById('enter').style.display = "none"
         document.getElementById('thisisanunnecessarilylongid').style.display = "none";
         alert('Correct, welcome to Tranquility.');
-        document.getElementById('main').style.display = "block";
+        window.location.replace("http://stackoverflow.com");
       } else {
-        alert("Incorrect, initiating self destruct.");
-        document.body.style.display = "none";
+        alert("Incorrect, try again or get help from an admin.");
       }
     }
   </script>
