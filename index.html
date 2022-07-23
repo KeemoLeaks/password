@@ -1,0 +1,23 @@
+<head>
+<title>Test</title>
+</head>
+
+  <body>
+<input id="enter"></input>
+  <button id="thisisanunnecessarilylongid" onClick="myFunction()">Enter</button>
+  <script>
+    function myFunction() {
+      var value = document.querySelector('input').value;
+      var key = "pass" // change this
+      if (value === key) {
+        document.getElementById('enter').style.display = "none"
+        document.getElementById('thisisanunnecessarilylongid').style.display = "none";
+        alert('Correct, welcome to Tranquility.');
+        document.getElementById('main').style.display = "block";
+      } else {
+        alert("Incorrect, initiating self destruct.");
+        document.body.style.display = "none";
+      }
+    }
+  </script>
+</body>
