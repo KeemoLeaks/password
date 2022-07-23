@@ -1,7 +1,7 @@
 <head>
-<title>Tranquility</title>
+  <title>Tranquility</title>
+  <link rel="stylesheet" href="main.css">
 </head>
-
   <body>
   <input id="enter"></input>
   <button id="thisisanunnecessarilylongid" onClick="myFunction()">Enter</button>
@@ -13,9 +13,10 @@
         document.getElementById('enter').style.display = "none"
         document.getElementById('thisisanunnecessarilylongid').style.display = "none";
         alert('Correct, welcome to Tranquility.');
-        window.location.replace("http://stackoverflow.com");
+        window.location.replace("../iframe/");
       } else {
         alert("Incorrect, try again or get help from an admin.");
+        location.reload();
       }
     }
   </script>
