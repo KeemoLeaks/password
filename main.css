@@ -1,4 +1,7 @@
-@import url("fonts/Elianto.tff")
+@font-face {
+  font-family: Elianto;
+  src: url("fonts/Elianto.tff");
+ }
 
 @keyframes fadeIn {
  0% {
